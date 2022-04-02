@@ -1,2 +1,2 @@
 # DSA-
-For my don't know how many days of code
+Repo consisting of my C++ code snippets.
