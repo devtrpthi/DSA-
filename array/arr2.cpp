@@ -3,7 +3,7 @@ using namespace std;
 
 void printArray(int arr[], int size){
     for (int i = 0; i < size; i++) {
-     std::cout << arr[i] << std::endl; 
+     std::cout << arr[i] << std::endl;
     }
 }
   int  main ()
@@ -25,7 +25,9 @@ void printArray(int arr[], int size){
   int fourth[10] = {1};
   int m =10;
    printArray(fourth,10);
-    return 0;
+    
+      char ch[5];
+  return 0;
   }
 
 
