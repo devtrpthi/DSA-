@@ -1,8 +1,10 @@
 #include<iostream>
 using namespace std;
 
-void printArray(){
-
+void printArray(int arr[], int size){
+    for (int i = 0; i < size; i++) {
+     std::cout << arr[i] << std::endl; 
+    }
 }
   int  main ()
   {
@@ -18,16 +20,11 @@ void printArray(){
 
   int third[15] = {2,7};
     //print the array
-  int n = 15;
-  for (int i = 0; i < n; i++) {
-   cout << third[i] << " " ;
-  }
-    int fourth[10] = {1};
+    int n=15;
+  printArray(third,15);
+  int fourth[10] = {1};
   int m =10;
-  for (int  i = 0; i < m; i++) {
-   std::cout << fourth[i] << std::endl; 
-  }
-  
+   printArray(fourth,10);
     return 0;
   }
 
