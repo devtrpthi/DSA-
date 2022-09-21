@@ -4,7 +4,9 @@ using namespace std;
 void update(int arr[], int n)
 {
   std::cout << "inside the function" << std::endl;
-   
+ // updating array's first ekement 
+  arr[0] =120;
+
   for (int i = 0; i < 3; i++) {
     cout << arr[i] << " ";
   }  
