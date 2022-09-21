@@ -22,8 +22,14 @@ int main ()
   cin >> key;
 
   bool found = search(arr, 10, key);
-
-
+  
+  if(found) {
+    std::cout << "key is present" << std::endl;
+  }
+  else
+  {
+    std::cout << "key is absent" << std::endl;
+  }
 
 
   return 0;
