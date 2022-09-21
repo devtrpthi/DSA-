@@ -11,9 +11,13 @@ int sumarray(int arr[], int n){
 
 int  main ()
 {
- int a[100] , int n;
+ int a[100] , n;
   std::cout << "enter the size of array" << std::endl;
   cin >>  n ;
- std::cout << "ended" << std::endl; 
+  for (int i = 0; i < n; i++) {
+   std::cin >> a[i]; 
+  }
+  std::cout << "sum of array elements" <<sumarray(a,n) << std::endl;
+  std::cout << "ended" << std::endl; 
   return 0;
 }
