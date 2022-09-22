@@ -22,8 +22,7 @@ int main ()
 {
   int even[8] = {5,2,9,4,7,6,1,0};
   int odd[5] = {11,33,9,76,43};
-  swapalternate(even,10);
-  printArray(even,10);
-
+  swapalternate(even,8);
+  printArray(even,8);
   return 0;
 }
