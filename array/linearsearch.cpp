@@ -30,7 +30,5 @@ int main ()
   {
     std::cout << "key is absent" << std::endl;
   }
-
-
   return 0;
 }
